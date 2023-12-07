@@ -1,0 +1,42 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 10px;
+    font-size: 1.5rem;
+    color: #F0ECE5;
+    background-color: #161A30;
+}
+
+h2 {
+ margin: 15px;
+}
+
+input {
+    margin-bottom: 5px;
+    background-color: transparent;
+    border: 1px solid #F0ECE5;
+    padding: 7px;
+    color: #F0ECE5;
+}
+
+table {
+    border: 1px solid #F0ECE5;
+}
+
+table thead {
+    border: 1px solid #F0ECE5;
+}
+
+button {
+    background-color: transparent;
+    border: 1px solid #F0ECE5;
+    color: #F0ECE5;
+    padding: 10px 15px;
+    margin: 10px;
+}
