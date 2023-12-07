@@ -1,1 +1,37 @@
-# full-stack-activity
+
+# Basaha ada ha baba bas dire ka malurong #
+
+
+
+### Run this code in terminal ###
+##
+
+## 1. ##
+>cp .env.example .env
+
+## 2. ##
+>php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');" 
+
+## 3. ##
+>php -r "if (hash_file('sha384', 'composer-setup.php') === 'e21205b207c3ff031906575712edab6f13eb0b361f2085f1f1237b7126d785e826a450292b6cfd1d64d92e6563bbde02') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;" 
+
+## 4. ##
+>php composer-setup.php
+
+## 5. ##
+>php -r "unlink('composer-setup.php');"
+
+## 6. ##
+>php composer.phar install
+
+## 7. ##
+>php artisan key:generate
+
+  
+
+# Bangin wara kapa han database #
+### php artisan migrate ###
+
+
+### Gcash Number: 09668972731 ###
+
